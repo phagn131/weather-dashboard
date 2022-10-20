@@ -17,53 +17,15 @@
     height: 100px;
     background-color: gray; /* For browsers that do not support gradients */
     background-image: linear-gradient(to bottom right, rgb(30, 59, 88), rgb(118, 97, 236));
+  }
 
-  }
-  
-  nav {
+  .button {
     display: flex;
-    background-color: #d8a47f;
-  }
-  
-  nav a {
-    color: #13293d;
-    padding: 14px 20px;
-    text-decoration: none;
-    text-align: center;
-  }
-  
-  main {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  aside {
-    flex: 1;
-    background-color: #b9c6ae;
-    padding: 20px;
-  }
-  
-  section {
-    flex: 3;
-    background-color: #fff;
-    padding: 20px;
-  }
-  
-  .sample-img {
-    background-color: #fff;
-    width: 100%;
-    padding: 20px;
-    height: 200px;
-    border: 1px solid black;
-  }
-  
-  footer {
-    padding: 20px;
-    text-align: center;
-    background: #13293d;
-    color: #fff;
-  }
-  
+    flex-direction: column;
+    justify-content: flex-start;
+
+  }  
+
   @media screen and (max-width: 768px) {
     /* Use flex-direction to stack the navbar, sidebar, and body */
     main,
@@ -113,4 +75,5 @@
       background-color: black;
     }
   }
+
   
