@@ -19,10 +19,22 @@
     background-image: linear-gradient(to bottom right, rgb(30, 59, 88), rgb(118, 97, 236));
   }
 
+  input{
+    width: 25%;
+    margin-bottom: 5px;
+    
+  }
+
+  .btn-primary{
+    margin-bottom: 5px;
+  }
+
+
   .button {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    background-color: aquamarine;
 
   }  
 
