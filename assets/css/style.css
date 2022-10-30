@@ -31,10 +31,8 @@
 
 
   .button {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    background-color: aquamarine;
+    margin-bottom: 5px;
+    
 
   }  
 
