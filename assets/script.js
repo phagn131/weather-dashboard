@@ -7,3 +7,7 @@ $today.text(currentDay.format("dddd, MMMM Do"));
 //set variable for hour block using moment.JS
 var timeBlock = $(".hour");
 var now = parseInt(moment().format("H"));
+
+var timeEl = document.getElementById('time');
+var dateEl = document.getElementById('date');
+var currentWeatheritemEl = document.getElementById(current-weather-items);
