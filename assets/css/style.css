@@ -46,7 +46,7 @@ body {
 }
 
 .date-container .time {
-  font-size: 70px;
+  font-size: 50px;
 }
 
 .date-container #am-pm {
@@ -109,11 +109,18 @@ body {
   background: #3c3c44;
   border-radius: 50px;
   text-align: center;
+  
 }
 
 .future-forecast .today .temp {
   font-size: 20px;
   padding-top: 15px;
+  
+}
+
+#current-temp.today{
+  border: 1px solid #eee;
+
 }
 
 .future-forecast .weather-forecast-item {
@@ -136,6 +143,11 @@ body {
 
 .weather-forecast .weather-forecast-item.temp {
   font-weight: 100;
+  border: 1px solid #eee;
+
+
+
+
 }
 
 @media only screen and (max-width: 730px) {

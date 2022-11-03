@@ -3,11 +3,22 @@
 
 ##  User Story
 
-This scheduler is designed for someone with a busy lifestylye, storing the data and keeping up with real time. 
+AS A traveler
+I WANT to see the weather outlook for multiple cities
+SO THAT I can plan a trip accordingly
 
 ## Acceptance Criteria
 
-This application calendar is designed to display the current time, and is blocked off in hourly increments using JQuery, Moment.JS, Bootstrap components and local storage. The blocks will display whether the events displayed are current, past or in for a later time by using seperate colors. When I enter an event it is saved in local storage and will be able to be retreived when the page is refreshed or closed.
+GIVEN a weather dashboard with form inputs
+WHEN I search for a city
+THEN I am presented with current and future conditions for that city and that city is added to the search history
+WHEN I view current weather conditions for that city
+THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, and the the wind speed
+WHEN I view future weather conditions for that city
+THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
+WHEN I click on a city in the search history
+THEN I am again presented with current and future conditions for that city
+
 
 ## 📝 Notes
 
