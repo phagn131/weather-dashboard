@@ -27,12 +27,12 @@ setInterval(() => {
     var date = time.getDate();
     var day = time.getDay();
     var hour = time.getHours();
-    var hoursin12hourFormat = hour >= 13 ? %12: hour
+    var hoursin12hourFormat = hour >= 13 ? 2: hour
     var minutes = time.getMinutes();
-    var ampm = hours >=12 ? 'PM' : 'AM'
+    var ampm = hour >=12 ? 'PM' : 'AM';
 
-    timeEl.innerHTML = hoursin12hourFormat + ':' + minutes + ' ' + `<span id="am-pm">$(ampm)</span>`
+    //timeEl.innerHTML = hoursin12hourFormat + ':' + minutes + ' ' + `<span id="am-pm">$(ampm)</span>`
 
-    dateEl.innerHTML = days[day] + ', ' + date+ ' ' + months[month]
+    //dateEl.innerHTML = days[day] + ', ' + date+ ' ' + months[month]
 
 }, 1000);
