@@ -32,4 +32,4 @@ THEN I am again presented with current and future conditions for that city
 ## Mock-Up
 The following image demonstrates the functionality of the application:
 
-![Work Day Scheduler](/assets/images/weather-img-1.png)
+![Work Day Scheduler](/assets/images/weather-img-2.png)
