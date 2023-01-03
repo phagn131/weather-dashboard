@@ -24,12 +24,12 @@ THEN I am again presented with current and future conditions for that city
 
 - These are the (2) items required for submission.
   1.  The URL of the deployed application. 
-      https://phagn131.github.io/work-day-scheduler
+      https://phagn131.github.io/weather-dashboard
   2.  The URL of the GitHub repository that contains your code. 
-      https://github.com/phagn131/work-day-scheduler
+      https://github.com/phagn131/weather-dashboard
 
 
 ## Mock-Up
 The following image demonstrates the functionality of the application:
 
-![Work Day Scheduler](/assets/images/weather-img-2.png)
+![Weather Dashboard](/assets/images/weather-img-2.png)
