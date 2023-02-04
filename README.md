@@ -1,23 +1,28 @@
-# work-day-scheduler
-
+# Weather Dashboard
 
 ##  User Story
 
-AS A traveler
-I WANT to see the weather outlook for multiple cities
-SO THAT I can plan a trip accordingly
+As a traveller who visits many cities I want to use be able to access the current and future forecast so that I may plan my trips wherever my travels may take me.
 
 ## Acceptance Criteria
 
-GIVEN a weather dashboard with form inputs
-WHEN I search for a city
-THEN I am presented with current and future conditions for that city and that city is added to the search history
-WHEN I view current weather conditions for that city
-THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, and the the wind speed
-WHEN I view future weather conditions for that city
-THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
-WHEN I click on a city in the search history
-THEN I am again presented with current and future conditions for that city
+When presented with a weather application with form inputs the user will input the search city into the search field.
+Then the user is presented with the current day and the forecast rendered on the page including the temperature in Fahrenheit, the humidity and the wind speed.
+They are also presented with the 5 day forecast for that city and icons of the weather conditions expected.
+These searches are saved to local storage and a clear history button is available. 
+
+## Installation
+
+This project used bootstrap for the CSS styling.
+(https://getbootstrap.com/)
+
+## Credits
+
+This project used openweathermap.org API calls to retrieve data.
+(https://openweathermap.org/api)
+
+## License
+
 
 
 ## 📝 Notes
@@ -32,4 +37,4 @@ THEN I am again presented with current and future conditions for that city
 ## Mock-Up
 The following image demonstrates the functionality of the application:
 
-![Weather Dashboard](/assets/images/weather-img-2.png)
+![Weather Dashboard](/assets/images/weather-img-4.png)
