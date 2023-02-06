@@ -37,4 +37,4 @@ This project used openweathermap.org API calls to retrieve data.
 ## Mock-Up
 The following image demonstrates the functionality of the application:
 
-![Weather Dashboard](/assets/images/weather-img-4.png)
+![Weather Dashboard](/assets/images/weather-dash-local-storage.png)
